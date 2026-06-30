@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Streamlit secrets reais não devem ir para o GitHub
+.streamlit/secrets.toml
+
+# Arquivos temporários
+*.png
+!docs/logo.png
+!assets/
+!assets/brand/
+!assets/brand/*.png
+*.jpg
+*.jpeg
+*.pdf
+*.log
+.DS_Store
